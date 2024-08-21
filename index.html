@@ -14,7 +14,7 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabeCalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Nome do site</h1>
+            <h1 class="navbar-brand m-0 section-title">Cake time</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,19 +27,19 @@
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#Eventos" class="nav-link">
                             <i class="bi bi-calendar-check me-1"></i>
                             Eventos
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#Cardápio" class="nav-link">
                             <i class="bi bi-card-text me-1"></i>
                             Cardápio
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#Contatos" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i>
                             Contatos
                         </a>
@@ -74,14 +74,14 @@
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
             </div>
-            <div class="pt-5 pb-5">
+            <div class="pt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="images/restaurante.png" class="d-block w-100 rounded" alt="restaurante">
+                        <img src="images/restaurante.png" class=" d-block w-100 rounded" alt="restaurante">
                     </div>
-                    <div class="com-md-7">
-                        <h2 class="section-title">Sobre <span>o restaurante</span></h2>
+                    <div class="com-md-5 pt-5">
+                        <h2 class="section-title">Sobre<span> o restaurante</span></h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus provident alias eius suscipit pariatur? Possimus sit illo veniam minima est nisi id similique magni velit! Molestias quae error natus saepe!
                         </p>
@@ -97,6 +97,160 @@
                     </div>
                 </div>
             </div>
+            </div>
+        </section>
+        <section id="Eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span>as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/Aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis veritatis et cumque similique in. Quia eum, esse repudiandae soluta, delectus a iste temporibus recusandae voluptates cupiditate odit optio nisi.  
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Casamentos
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis veritatis et cumque similique in. Quia eum, esse repudiandae soluta, delectus a iste temporibus recusandae voluptates cupiditate odit optio nisi.  
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/Confraternização.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternização
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis veritatis et cumque similique in. Quia eum, esse repudiandae soluta, delectus a iste temporibus recusandae voluptates cupiditate odit optio nisi.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Cardápio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nosso <span>Cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <nav class="nav nav-pills flex-collumn nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-não-alcoolicas" class="fw-bold text-start nav-link active">Bebidas não alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link"><span>Bebidas alcoólicas</span></button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bolos" class="fw-bold text-start nav-link"><span>Bolos</span></button>
+                        </nav>
+                    </div>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="bebidas-não-alcoolicas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/coca-cola.jpg"/>
+                                    <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/sucos.jpg"/>
+                                    <h5 class="text-colored fw-bold mt-2">Sucos</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebidas-alcoolicas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/cerveja.jpg"/>
+                                    <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/vinhos.jpg"/>
+                                    <h5 class="text-colored fw-bold mt-2">Vinhos</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bolos">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/bolo morango.jpg"/>
+                                    <h5 class="text-colored fw-bold mt-2">Bolo de Moragngo</h5>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="images/bolo de coco.jpg"/>
+                                    <h5 class="text-colored fw-bold mt-2">Bolo de Coco</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="Contatos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                               <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Exemplo, nº123 SP</p>
+                        </div>    
+                    </div>
+                </div>
             </div>
         </section>
     </div>
